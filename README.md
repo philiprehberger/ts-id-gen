@@ -1,0 +1,34 @@
+# @philiprehberger/id-gen
+
+Flexible ID generation with UUID, ULID, nanoid, and prefixed IDs. Zero dependencies.
+
+## Installation
+
+```bash
+npm install @philiprehberger/id-gen
+```
+
+## Usage
+
+```ts
+import { uuid, ulid, nanoid, prefixedId } from '@philiprehberger/id-gen';
+
+uuid();            // '550e8400-e29b-41d4-a716-446655440000'
+ulid();            // '01ARZ3NDEKTSV4RRFFQ69G5FAV'
+nanoid();          // 'V1StGXR8_Z5jdHi6B-myT' (21 chars)
+nanoid(10);        // 'IRFa-VaY2b'
+prefixedId('usr'); // 'usr_V1StGXR8_Z5jdHi6'
+```
+
+## API
+
+| Function | Description |
+|----------|-------------|
+| `uuid()` | UUID v4 (RFC 4122) |
+| `ulid()` | ULID (time-sortable) |
+| `nanoid(size?)` | URL-safe nanoid (default 21 chars) |
+| `prefixedId(prefix, size?)` | `{prefix}_{nanoid}` (default 16 char suffix) |
+
+## License
+
+MIT
