@@ -1,6 +1,6 @@
 # @philiprehberger/ts-id-gen
 
-[![CI](https://github.com/philiprehberger/ts-id-gen/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/ts-id-gen/actions/workflows/ci.yml)
+[![CI](https://github.com/philiprehberger/ts-id-gen/actions/workflows/publish.yml/badge.svg)](https://github.com/philiprehberger/ts-id-gen/actions/workflows/publish.yml)
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/ts-id-gen.svg)](https://www.npmjs.com/package/@philiprehberger/ts-id-gen)
 [![License](https://img.shields.io/github/license/philiprehberger/ts-id-gen)](LICENSE)
 
@@ -32,6 +32,15 @@ prefixedId('usr'); // 'usr_V1StGXR8_Z5jdHi6'
 | `ulid()` | ULID (time-sortable) |
 | `nanoid(size?)` | URL-safe nanoid (default 21 chars) |
 | `prefixedId(prefix, size?)` | `{prefix}_{nanoid}` (default 16 char suffix) |
+
+
+## Development
+
+```bash
+npm install
+npm run build
+npm test
+```
 
 ## License
 
