@@ -1,21 +1,21 @@
-# @philiprehberger/id-gen
+# @philiprehberger/ts-id-gen
 
-[![CI](https://github.com/philiprehberger/id-gen/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/id-gen/actions/workflows/ci.yml)
-[![npm version](https://img.shields.io/npm/v/@philiprehberger/id-gen.svg)](https://www.npmjs.com/package/@philiprehberger/id-gen)
-[![License](https://img.shields.io/github/license/philiprehberger/id-gen)](LICENSE)
+[![CI](https://github.com/philiprehberger/ts-id-gen/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/ts-id-gen/actions/workflows/ci.yml)
+[![npm version](https://img.shields.io/npm/v/@philiprehberger/ts-id-gen.svg)](https://www.npmjs.com/package/@philiprehberger/ts-id-gen)
+[![License](https://img.shields.io/github/license/philiprehberger/ts-id-gen)](LICENSE)
 
 Flexible ID generation with UUID, ULID, nanoid, and prefixed IDs. Zero dependencies.
 
 ## Installation
 
 ```bash
-npm install @philiprehberger/id-gen
+npm install @philiprehberger/ts-id-gen
 ```
 
 ## Usage
 
 ```ts
-import { uuid, ulid, nanoid, prefixedId } from '@philiprehberger/id-gen';
+import { uuid, ulid, nanoid, prefixedId } from '@philiprehberger/ts-id-gen';
 
 uuid();            // '550e8400-e29b-41d4-a716-446655440000'
 ulid();            // '01ARZ3NDEKTSV4RRFFQ69G5FAV'
