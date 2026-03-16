@@ -1,5 +1,9 @@
 # @philiprehberger/id-gen
 
+[![CI](https://github.com/philiprehberger/id-gen/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/id-gen/actions/workflows/ci.yml)
+[![npm version](https://img.shields.io/npm/v/@philiprehberger/id-gen.svg)](https://www.npmjs.com/package/@philiprehberger/id-gen)
+[![License](https://img.shields.io/github/license/philiprehberger/id-gen)](LICENSE)
+
 Flexible ID generation with UUID, ULID, nanoid, and prefixed IDs. Zero dependencies.
 
 ## Installation
