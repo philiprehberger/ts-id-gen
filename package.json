@@ -1,5 +1,5 @@
 {
-  "name": "@philiprehberger/ts-id-gen",
+  "name": "@philiprehberger/id-gen",
   "version": "0.1.4",
   "description": "Flexible ID generation with UUID, ULID, nanoid, and prefixed IDs",
   "type": "module",
