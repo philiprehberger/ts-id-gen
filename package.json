@@ -1,6 +1,6 @@
 {
   "name": "@philiprehberger/id-gen",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Flexible ID generation with UUID, ULID, nanoid, and prefixed IDs",
   "type": "module",
   "main": "./dist/index.cjs",
