@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.2.0
+
+- Add custom alphabet support for nanoid generation
+- Add UUID v5 namespace-based deterministic generation
+- Add ID validation utilities (isUuid, isUlid, isNanoid)
+- Add batch generation with generateMany()
+
 ## 0.1.6
 
 - Standardize README to 3-badge format with emoji Support section
