@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.1
+
+- Fix README GitHub URLs to use correct repo name (ts-id-gen)
+
 ## 0.2.0
 
 - Add custom alphabet support for nanoid generation

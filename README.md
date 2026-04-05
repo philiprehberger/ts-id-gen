@@ -1,8 +1,8 @@
 # @philiprehberger/id-gen
 
-[![CI](https://github.com/philiprehberger/id-gen/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/id-gen/actions/workflows/ci.yml)
+[![CI](https://github.com/philiprehberger/ts-id-gen/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/ts-id-gen/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/id-gen.svg)](https://www.npmjs.com/package/@philiprehberger/id-gen)
-[![Last updated](https://img.shields.io/github/last-commit/philiprehberger/id-gen)](https://github.com/philiprehberger/id-gen/commits/main)
+[![Last updated](https://img.shields.io/github/last-commit/philiprehberger/ts-id-gen)](https://github.com/philiprehberger/ts-id-gen/commits/main)
 
 Flexible ID generation with UUID, ULID, nanoid, and prefixed IDs. Zero dependencies
 
@@ -107,11 +107,11 @@ npm test
 
 If you find this project useful:
 
-⭐ [Star the repo](https://github.com/philiprehberger/id-gen)
+⭐ [Star the repo](https://github.com/philiprehberger/ts-id-gen)
 
-🐛 [Report issues](https://github.com/philiprehberger/id-gen/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
+🐛 [Report issues](https://github.com/philiprehberger/ts-id-gen/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
 
-💡 [Suggest features](https://github.com/philiprehberger/id-gen/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement)
+💡 [Suggest features](https://github.com/philiprehberger/ts-id-gen/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement)
 
 ❤️ [Sponsor development](https://github.com/sponsors/philiprehberger)
 
